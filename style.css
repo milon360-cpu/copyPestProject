@@ -1,0 +1,38 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.card-container 
+{
+    width:400px;
+    margin: 0px auto;
+    margin-top: 200px;
+    height: auto;
+    /* border-left: 2px solid rgba(194, 201, 202, 0.575);
+    border-top: 2px solid rgba(188, 194, 195, 0.575); */
+
+    /* box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.253); */
+    transition: .3s;
+}
+.card-container:hover
+{
+    box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.253);
+    border-left: 2px solid rgba(194, 201, 202, 0.575);
+    border-top: 2px solid rgba(188, 194, 195, 0.575);
+}
+.card_ img
+{
+    width: 100%;
+}
+.code 
+{
+    border: none;
+    outline: none ;
+    font-weight: bold;
+}
+.code::selection
+{
+    background: none;
+}
